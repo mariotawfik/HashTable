@@ -1,14 +1,14 @@
-//
-//  main.cpp
-//  HashTable
-//
-//  Created by Mary Tamry on 31.08.22.
-//
-
 #include <iostream>
+using namespace std;
+#include "associative_array.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int main()
+{
+    associative_array A;
+    A.userInteractionForInsert();
+    A.userInteractionForInsert();
+    cout << endl << A.is_empty() << endl << endl;
+    A.userInteractionForDelete();
+    A.printList();
+    cout << A.size() << endl;
 }

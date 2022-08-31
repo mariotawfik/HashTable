@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E685665E28BF8D43000B8416 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E685665D28BF8D43000B8416 /* main.cpp */; };
+		E685666828BF8D62000B8416 /* associative_array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E685666628BF8D62000B8416 /* associative_array.cpp */; };
+		E685666C28BF8DDE000B8416 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E685666B28BF8DDE000B8416 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		E685665A28BF8D43000B8416 /* HashTable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HashTable; sourceTree = BUILT_PRODUCTS_DIR; };
-		E685665D28BF8D43000B8416 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E685666428BF8D62000B8416 /* associative_array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = associative_array.h; sourceTree = "<group>"; };
+		E685666628BF8D62000B8416 /* associative_array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = associative_array.cpp; sourceTree = "<group>"; };
+		E685666B28BF8DDE000B8416 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		E685665C28BF8D43000B8416 /* HashTable */ = {
 			isa = PBXGroup;
 			children = (
-				E685665D28BF8D43000B8416 /* main.cpp */,
+				E685666628BF8D62000B8416 /* associative_array.cpp */,
+				E685666428BF8D62000B8416 /* associative_array.h */,
+				E685666B28BF8DDE000B8416 /* main.cpp */,
 			);
 			path = HashTable;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E685665E28BF8D43000B8416 /* main.cpp in Sources */,
+				E685666C28BF8DDE000B8416 /* main.cpp in Sources */,
+				E685666828BF8D62000B8416 /* associative_array.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
